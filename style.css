@@ -1,0 +1,31 @@
+#main{
+    display:flex; 
+     flex-direction: column; 
+     align-items: center;
+    margin:30px;
+}
+#main button {
+    margin-top:30px;
+    padding:8px 20px;
+   border-radius: 5px;
+   background-color: rgb(190, 190, 132);
+   color:white;
+}
+#event { 
+margin:auto;
+    width:200px;
+    display:flex;
+    justify-content: space-around;
+}
+.btn-plus{
+    padding:8px 12px;
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+}
+.btn-minus{
+    padding:8px 12px;
+    background-color:rgb(218, 60, 60);
+    color:white;
+    border-radius: 5px;
+}
