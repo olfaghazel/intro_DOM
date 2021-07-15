@@ -34,3 +34,14 @@ for (let i = 0; i < plus.length; i++) {
     if (counter[i].innerText > 0) counter[i].innerText--;
   });
 }
+
+// add an element
+var h3 = document.createElement('h3');
+h3.innerHTML = 'Hello world';
+document.body.appendChild(h3);
+
+
+// add an attribute
+var att = document.createAttribute('style');
+att.value = 'color:blue';
+h3.setAttributeNode(att);
