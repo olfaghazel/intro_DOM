@@ -41,7 +41,10 @@ h3.innerHTML = 'Hello world';
 document.body.appendChild(h3);
 
 
-// add an attribute
+// add an attribute 1
 var att = document.createAttribute('style');
 att.value = 'color:blue';
 h3.setAttributeNode(att);
+
+// add an attribute 2
+h3.style='color:red'
